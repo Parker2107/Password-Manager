@@ -1,0 +1,144 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+.create0
+{
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+.create1
+{
+    padding: 10px 20px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-shadow: 2px 2px 2px black;
+    font-size: 55px;
+}
+.create2:hover
+{
+    width: 40%;
+    border: 6px double blue;
+    padding: 30px 20px 20px 20px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #A6F7FF;
+    box-shadow: 2px 2px 2px black;
+}
+.create2
+{
+    width: 40%;
+    border: 6px double blue;
+    padding: 30px 20px 20px 20px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #D6FBFF;
+    transition-duration: 0.3s;
+}
+.create3
+{
+    width: 80%;
+    margin: auto;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.create4
+{
+    display: inline-block;
+    float: left;
+    padding: 0px 52px;
+}
+.create5
+{
+    align: center;
+    margin: auto;
+    border: 4px double black;
+    background-color: #313131;
+    color: white;
+    border-radius: 30px;
+    height: 60px;
+    width: 150px;
+    font-size: 27px;
+    font-family: "oswald", sans-serif;
+}
+.create6
+{
+    align: right;
+    border: 4px double black;
+    background-color: #313131;
+    color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 70px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "oswald", sans-serif;
+}
+.bg1
+{
+    background-image: url('https://removal.ai/wp-content/uploads/2021/05/image14-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 133%;
+}
+.bg2
+{
+    background-image: url('https://images3.alphacoders.com/918/918325.jpg');
+    background-size: cover;
+}
+.orange
+{
+    color: #D2691E;
+}
+.disp
+{
+    width: 85%;
+    margin: auto;
+    border: 3px solid black;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+th, td
+{
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+.body:hover
+{
+    background-color: snow;
+}
+.head
+{
+    background-color: royalblue;
+}
+
+.disp2
+{
+    color: white;
+    padding: 10px 20px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-shadow: 2px 2px 2px black;
+    font-size: 55px;
+}
