@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}home{% endblock %}
+
+{% block main %}
+    <body class="bg2">
+        <h1 class="disp2">All Passwords</h1>
+        <br>
+        <table class="table disp">
+            <thead>
+                <tr class="head">
+                    <th>S.No.</th>
+                    <th>Website</th>
+                    <th>UserID</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for password in passwords %}
+                <tr class="body">
+                    <td>{{loop.index}}</td>
+                    <td>{{password.Website}}</td>
+                    <td>{{password.UserID}}</td>
+                    <td>{{password.Password}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+{% endblock %}

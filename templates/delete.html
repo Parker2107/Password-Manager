@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}Delete Password{% endblock %}
+
+{% block main %}
+    <body class="bg1">
+        <div class="create0">
+            <h1 class="create1"> Delete Existing Password</h1>
+        </div>
+        <br>
+        <form class="create2" id="delete" method="post">
+            <label class="create4" for="website">Enter the Website URL :</label>
+            <input class="create3" autofocus name="website" autocomplete="off" id="website" type="url" placeholder="Ex. https://www.google.com/" required>
+            <br><br>
+            <label class="create4" for="username">Enter your Username :</label>
+            <input class="create3" name="username" type="text" autocomplete="on" id="username" placeholder="Username" required>
+            <br><br>
+            <label class="create4" for="pass1">Enter your Password :</label>
+            <input class="create3" name="pass1" id="pass1" autocomplete="off" type="password" placeholder="Enter Password" required>
+            <br><br>
+        </form>
+        <br><br><br>
+        <form>
+            <button type="submit" method="post" form="delete" class="create5 btn btn-sm btn-info" name="delete"><i class="fa fa-check"></i>Delete</button>
+            <input form="delete" class="create6 btn btn-sm btn-info" type="reset"><i class="fa fa-check"></i>
+        </form>
+    </body>
+{% endblock %}
