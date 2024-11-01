@@ -1,6 +1,4 @@
 import os
-
-#from cs50 import SQL
 from sql import SQL
 import sqlite3
 from flask import Flask, flash, redirect, render_template, request, session, g
